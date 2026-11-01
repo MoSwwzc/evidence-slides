@@ -1,0 +1,13 @@
+{
+  "name": "evidence-slides-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable PptxGenJS renderer for the Evidence Slides skill",
+  "scripts": {
+    "check": "node --check scripts/build_deck.cjs"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.0",
+    "image-size": "^2.0.2"
+  }
+}

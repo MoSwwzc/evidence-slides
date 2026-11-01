@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "From sources to an evidence-grounded talk",
+    "subtitle": "Original synthetic demonstration (not a scientific result)",
+    "language": "en-US",
+    "minutes": 6,
+    "aspect": "16:9",
+    "scenario": "teaching"
+  },
+  "sources": [
+    {"id": "src-example", "file": "Original skill demonstration", "locator": "examples/sample_figure.png", "type": "original-illustration"}
+  ],
+  "claims": [
+    {"id": "claim-demo", "text": "A three-stage workflow illustrates evidence before design", "status": "teaching-example", "source_ids": ["src-example"], "scope": "synthetic, non-experimental example"}
+  ],
+  "assets": [
+    {"id": "workflow-figure", "path": "sample_figure.png", "kind": "original-illustration", "source_ids": ["src-example"], "description": "Original synthetic workflow diagram"}
+  ],
+  "slides": [
+    {
+      "id": "cover", "title": "Evidence first, design second", "layout": "title",
+      "body": "A reproducible process for turning documents into talks",
+      "image_ids": ["workflow-figure"],
+      "notes": "This demonstration contains no scientific experiment. Explain that source reading comes before slide layout.",
+      "sources": ["src-example"], "duration_sec": 30
+    },
+    {
+      "id": "problem", "title": "Why do source-based slides go wrong?", "layout": "split",
+      "body": "A strong visual cannot repair a broken evidence chain.",
+      "bullets": ["Claims are separated from their original conditions", "Figures are pasted without needed legends", "Page sequence lacks a clear question"],
+      "image_ids": ["workflow-figure"], "claim_ids": ["claim-demo"],
+      "notes": "Use these points as a synthetic classroom illustration, not empirical survey data.", "duration_sec": 45
+    },
+    {
+      "id": "figure", "title": "A basic evidence-led workflow", "layout": "figure",
+      "body": "Read, verify, then design.",
+      "image_ids": ["workflow-figure"],
+      "bullets": ["Read the full source", "Verify claim and figure links"],
+      "claim_ids": ["claim-demo"],
+      "notes": "Read the three source -> claim -> slide stages. This is an original teaching diagram.", "duration_sec": 55
+    },
+    {
+      "id": "compare", "title": "Separate evidence from presentation style", "layout": "comparison",
+      "body": "Same content, different visual treatment.",
+      "bullets": ["Evidence: source, conditions, numbers", "Evidence: caveats and uncertainty", "Design: image scale and placement", "Design: font hierarchy and layout"],
+      "notes": "Explain that data consistency holds across different slide variants.", "duration_sec": 40
+    },
+    {
+      "id": "steps", "title": "Four decisions before visual production", "layout": "process",
+      "body": "Only generate images for a specific explanatory need.",
+      "bullets": ["Identify the audience question", "Locate exact source evidence", "Write the slide claim", "Choose the right visual asset"],
+      "notes": "Walk through the order. Notice that layout comes after content.", "duration_sec": 50
+    },
+    {
+      "id": "matrix", "title": "Different work belongs in different layers", "layout": "table",
+      "table": {
+        "headers": ["Layer", "Purpose", "Evidence required"],
+        "rows": [
+          ["Reading", "Understand the source", "Original text and captions"],
+          ["Narrative", "State supported claims", "Precise source locator"],
+          ["Visuals", "Make content understandable", "Original figures or labeled concepts"],
+          ["QA", "Check the finished deck", "PPTX, rendered pages and notes"]
+        ]
+      },
+      "body": "This table is a synthetic workflow example, not a research measurement.",
+      "notes": "The table is an original description of the processing pipeline.", "duration_sec": 50
+    },
+    {
+      "id": "conclusion", "title": "What makes a trustworthy slide deck?", "layout": "summary",
+      "body": "The sources control truth; the narrative controls sequence; the layout controls clarity.",
+      "bullets": ["Evidence is traceable", "Visual assets have real provenance", "Different variants keep the same facts"],
+      "notes": "Conclude with the distinction between documented facts and flexible visual design.", "duration_sec": 35
+    }
+  ],
+  "variants": [
+    {"id": "A", "theme": "academic-light", "style": "editorial"},
+    {"id": "B", "theme": "academic-light", "style": "visual"}
+  ]
+}

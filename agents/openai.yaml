@@ -1,0 +1,12 @@
+interface:
+  display_name: Evidence Slides
+  short_description: Create evidence-grounded presentations from papers and reports
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
