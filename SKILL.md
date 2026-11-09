@@ -20,6 +20,8 @@ Treat each uploaded document according to its declared role: **content evidence*
 
 Default when unspecified: current conversation language, about 10 minutes, a reasonable number of slides based on content (not a rigid quota), 16:9, two complete variants, editable titles and annotations, speaker notes and sources. Do not add names, institutional logos, or footers without authority. Honor user overrides and stop for clarification only on truly indispensable missing facts.
 
+For ordinary content slides, aim for text to occupy roughly 20–40% of the slide canvas, estimated visually from the areas of text boxes rather than word count. This is a design target, not a pixel-exact rule; figures, equations, references, accessibility, and user templates may justify exceptions. Avoid text-only content slides: use relevant evidence figures, diagrams, tables, or meaningful conceptual assets, and move detail into speaker notes. Do not dedicate a slide to only a few isolated numbers when they can be combined with their source figure, comparison, context, or interpretation without crowding. Consider ImageGen for useful independent visual assets or icons when available; preserve the scientific-evidence boundaries below. Check these choices on every rendered content slide.
+
 ## Operational pipeline
 
 1. **Preflight**: execute `python scripts/preflight.py --out WORK/capabilities.json`. Check file access, PDF/text extraction, PowerPoint editing, output rendering, available fonts, and optional image-generation capability. Do not claim that unavailable actions ran. See `references/runtime.md`.

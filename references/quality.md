@@ -11,5 +11,7 @@
 9. Variant audit: identical facts, data and sources across variants, with meaningfully different design choices. Run the same full QA for each.
 10. Report honestly: distinct labels for automated structural checks, rendered inspection, actual Microsoft PowerPoint testing, and ImageGen/tool availability. Do not claim unperformed checks.
 
+11. Content-slide composition: visually estimate text-box area against the 20–40% target, inspect for text-only pages and isolated numbers that could be combined with relevant evidence or context, and revise where appropriate. Record justified exceptions and any unavailable image-generation capability. Do not describe this visual estimate as an automated measurement.
+
 ## Deliverables
 For each version: editable PPTX, PDF and montage when supported, notes, and material list. Shared: narrative outline, evidence ledger, generated asset files, mapping of images to slides and sources, variant difference note, and QA report. If a deliverable fails, explain exactly what is missing.
